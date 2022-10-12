@@ -1,0 +1,20 @@
+{
+  "name": "interactive-form",
+  "version": "1.0.0",
+  "description": "An interactive form that uses HTML, CSS, and Javascript with an emphasis on CSS/SCSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joeseff6/Interactive-Form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joeseff6/Interactive-Form/issues"
+  },
+  "homepage": "https://github.com/Joeseff6/Interactive-Form#readme"
+}
