@@ -11,14 +11,29 @@
         <h1>Welcome to Interactive Form!</h1>
         <p class="written-by">Written by Joseph Soria</p>
         <p class="description">The purpose of this form is to process basic data, with a hint of style!</p>
+        <p class="disclaimer">Note: any information recorded here will <em>not</em> be recorded to a database or publicly shared. All data is stored locally and only visible to you!</p>
         <button class="start-button">Begin</button>
       </header>
       <section class="first-section">
-        <form class="form1">
+        <form class="form1" id="form1">
           <h2 class="form-header">Let's start with the basics!</h2>
-          <label>What is your first name?
-            <input type="text" value="" required />
-          </label>
+          <fieldset>
+            <legend>Basic Information</legend>
+            <label>What is your first name?
+              <input type="text" id="fname" name="fname" value="" required />
+            </label>
+            <label>How about your last name?
+              <input type="text" id="lname" name="lname" value="" required />
+            </label>
+            <label>What is your nickname, if you have one?
+              <input type="text" id="nname" name="nname" value="" />
+            </label>
+            <label>How old are you?
+              <input type="number" id="age" name="age" min="18" value="" />
+              <p>Note: only users over 18 can use this form!</p>
+            </label>
+          </fieldset>
+          <button class="next-button">Next Form</button>
         </form>
       </section>
       <script src="../js/index.js" />
