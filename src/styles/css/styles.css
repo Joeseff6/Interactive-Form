@@ -12,4 +12,12 @@ body {
   background-color: #F5F5F5;
 }
 
+header, section {
+  display: none;
+}
+
+header.active, section.active {
+  display: block;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -13,3 +13,12 @@ body {
   min-height: 100%;
   background-color: variables.$main-page-color;
 }
+
+header, section {
+  display: none;
+}
+
+header.active, section.active {
+  display: block;
+}
+
