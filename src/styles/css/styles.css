@@ -24,4 +24,8 @@ header.active, section.active {
   transition: background-color 1s;
 }
 
+label {
+  display: block;
+}
+
 /*# sourceMappingURL=styles.css.map */
